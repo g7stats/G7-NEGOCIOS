@@ -1,1 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+  margin: 0;
+  padding: 20px;
 
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.topo-btn {
+  background: transparent;
+  border: none;
+  width: auto;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.apagar {
+  margin-left: auto;
+  color: #78716c;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.abas {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.aba {
+  flex: 1;
+  background: #1f2937;
+  color: #94a3b8;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.aba.ativa {
+  background: #22c55e;
+  color: white;
+}
+
+.box {
+  background: #1f2937;
+  padding: 16px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.descricao-input {
+  background: #0f172a;
+  color: white;
+}
+
+.descricao-input::placeholder {
+  color: #64748b;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.total-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.total {
+  font-size: 26px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.item {
+  background: #334155;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.desc {
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+.valor {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.vazio {
+  text-align: center;
+  color: #9ca3af;
+}
+
+.dia {
+  background: #0f172a;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.dia-topo {
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dia-data {
+  font-weight: bold;
+  color: #cbd5e1;
+}
+
+.dia-total {
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.dia .dia .dia-total {
+  color: #cbd5e1;
+}
+
+.dia-itens {
+  display: none;
+  padding: 12px;
+}
+
+.seta {
+  color: #94a3b8;
+  margin-left: 8px;
+}
+
+.dia-topo {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.dia .dia {
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.dia-itens .item {
+  border: 1px solid rgba(148, 163, 184, 0.10);
+}
+
+.dia-itens .item:last-child {
+  margin-bottom: 0;
+}
+
+.dia .dia {
+  background: #18212f;
+}
